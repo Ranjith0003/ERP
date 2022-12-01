@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>GGSH - Accounts</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <!--<link href="css/sb-admin-2.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="/css/speed-ui.css">
+
+</head>
+
+<body id="page-top">
+
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">                                                                                                                                                                                                                                                                                                         
+        <!-- <iframe src="https://app.powerbi.com/view?r=eyJrIjoiYmUyYmY1YWMtN2NmNi00NGI2LWExYjktM2IzNzNiMjg1YjE0IiwidCI6IjI1OTM5ODc0LTZjMTUtNGI5NC04YWE5LTVhNjhiY2FjYzlmNSJ9" widt="1000px" height="500px"></iframe> -->
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary-speed sidebar sidebar-dark accordion" id="accordionSidebar" style="min-height:100vh;position:fixed;top:0;left:0;z-index:100;">
+
+            <!-- Sidebar - Brand -->
+            
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="/index.html">
+                    <!-- <i class="fas fa-fw fa-tachometer-alt"></i> -->
+                    <div>Dashboard</div></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+                    aria-controls="collapseTwo">
+                    <!-- <i class="fas fa-fw fa-cog"></i> -->
+                    <span style="font-size:16px;">Leads</span>
+                </a>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                    data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="/contracts.html">Contracts</a>
+                        <a class="collapse-item" href="projects.html">Projects</a>
+                    </div>
+                </div>
+            </li>
+
+             <!-- Nav Item - Commodities Collapse Menu -->
+             <li class="nav-item active">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree"
+                    aria-expanded="true" aria-controls="collapseThree">
+                    <!-- <i class="fas fa-fw fa-folder"></i> -->
+                    <span style="font-size:16px;">Dashboard</span>
+                </a>
+                <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="/dashboard/managers.html">Manager Dashboard</a>
+                        <a class="collapse-item" href="#">Employee Dashboard</a>
+                        <a class="collapse-item active" href="/dashboard/accounts.html">Accounts Dashboard</a>
+                        <a class="collapse-item" href="#">Clients Dashboard</a>
+                    </div>
+                </div>
+            </li>
+
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <!-- <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div> -->
+
+            <!-- Sidebar Message -->
+            <!-- <div class="sidebar-card d-none d-lg-flex">
+                <img class="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="...">
+                <p class="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p>
+                <a class="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a>
+            </div> -->
+
+        </ul>
+        <!-- End of Sidebar -->
+        <div class="container-fluid" style="padding:10px 20px 0px 260px;">
+            <h2>Accounts Dashboard</h2>
+            <br>
+            <div class="card shadow">
+              <div class="card-body">
+
+
+              <ul class="navbar-nav accordion" id="accordionSidebar-a1">
+                <li class="nav-item">
+                  <div class="d-flex justify-content-between align-items-center">
+                  <a class="nav-link collapsed" style="width:100%;" href="#" data-toggle="collapse" data-target="#collapse-a1"
+                      aria-expanded="true" aria-controls="collapse-a1">
+                  
+                      <div class="text-dark">Unbilled Projects</div>
+                  </a>
+                  <div class="badge bg-danger text-white p-2" id="notify">2</div>
+                  </div>
+
+                  <div id="collapse-a1" class="collapse" aria-labelledby="heading-a1" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded" id="prjList">
+
+
+                    </div>
+                  </div>
+                </li>
+              </ul>
+                
+              </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    
+
+    <!-- Jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="/js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="/vendor/chart.js/Chart.min.js"></script>
+    <script src="/vendor/datatables/jquery.dataTables.min.js"></script>
+    <!-- Page level custom scripts -->
+    
+    <script src="/js/demo/accounts.js"></script>
+    
+    
+
+</body>
+
+</html>
